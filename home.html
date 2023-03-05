@@ -1,0 +1,328 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+    <title>Luonto ja retkeilyvinkit</title>
+    <style>
+        .retkeilijat {
+            float: right;
+            width: 30%;
+        }
+
+        body {
+            background-image: url("vaaleansininen.jpg");
+            background-size: cover;
+            font-family: Arial, sans-serif;
+            color: black;
+            font-size: 100%;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        h5 {
+            font-family: Georgia, serif;
+            color: black;
+            font-size: 200%;
+
+        }
+
+        a {
+            color: black;
+        }
+
+        .kuva {
+            float: right;
+            width: 30%;
+        }
+
+
+
+    </style>
+</head>
+<link rel="stylesheet" href="tyylitiedosto.css">
+
+<div class="retkeilijat">
+    <img src="retkeilijat.png" alt="Retkeilijat">
+</div>
+
+
+<div class="kuva">
+    <img src="nuotio.png" alt="Kuva">
+</div>
+
+
+
+
+
+
+
+
+<body>
+    <header>
+        <h1>Luonto- ja retkeilyvinkit</h1>
+    </header>
+
+
+    <nav>
+        <ul>
+            <li><a href="#etusivu">Etusivu</a></li>
+            <li><a href="#retkeilykohteet">Retkeilykohteet</a></li>
+            <li><a href="#retkeilyreitit">Retkeilyreitit</a></li>
+            <li><a href="#varustevinkit">Varustevinkit</a></li>
+            <li><a href="#blogi">Blogi</a></li>
+            <li><a href="#tietoa-sivustosta">Tietoa sivustosta</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="etusivu">
+            <br>
+            <h2>Sivuston esittely:</h2>
+            <p>Tervetuloa lukemaan artikkeleita ja vinkkejä luonnossa liikkumiseen!<br><br> Luonto on mahtava paikka
+                rentoutua, nauttia kauniista maisemista ja kokea seikkailuja. Retkeily tarjoaa mahdollisuuden tutustua
+                uusiin paikkoihin ja saada unohtumattomia kokemuksia.<br>
+                Sivustomme tavoitteena on tarjota sinulle hyödyllisiä vinkkejä luonnossa liikkumiseen ja retkeilyyn.<br>
+                Meillä on asiantuntevia kirjoittajia, jotka jakavat kokemuksiaan ja tietojaan retkeilyvarusteista,
+                vaellusreiteistä, tulentekotaidoista ja muista luonnossa tarvittavista taidoista.<br>
+                Haluamme auttaa sinua suunnittelemaan seuraavan retkesi mahdollisimman helposti ja mukavasti.<br> Olipa
+                suunnitelmissasi päiväretki lähimetsään tai pidempi vaellus erämaassa, löydät meiltä varmasti
+                hyödyllistä tietoa.<br>
+                Tervetuloa tutustumaan sivustoomme ja inspiroitumaan luonnossa liikkumisesta!
+            </p>
+
+            </ul>
+
+            <style>
+                input[type="text"] {
+                    padding: 5px;
+                    font-size: 16px;
+                    border: 1px solid #ccc;
+                    border-radius: 5px;
+                    width: 300px;
+                    max-width: 100%;
+                }
+
+                ul li {
+                    display: none;
+                }
+
+                ul li.show {
+                    display: block;
+                }
+            </style>
+            <script>
+                function search() {
+                    var input, filter, ul, li, a, i;
+                    input = document.getElementById("myInput");
+                    filter = input.value.toUpperCase();
+                    ul = document.getElementById("myUL");
+                    li = ul.getElementsByTagName("li");
+                    for (i = 0; i < li.length; i++) {
+                        a = li[i].getElementsByTagName("a")[0];
+                        if (a.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                            li[i].classList.add("show");
+                        } else {
+                            li[i].classList.remove("show");
+                        }
+                    }
+                }
+            </script>
+            </head>
+
+            <body>
+
+                <h1>Hae luontopolkua:</h1>
+
+                <input type="text" id="myInput" onkeyup="search()" placeholder="Aloita kirjoittamalla...">
+
+                <ul id="myUL">
+                    <li><a href="#">Nuuksio kansallispuisto (Espoo)</a></li>
+                    <li><a href="#">Koli kansallispuisto (Lieksa)</a></li>
+                    <li><a href="#">Helvetinjärven kansallispuisto (Ruovesi)</a></li>
+                    <li><a href="#">Repoveden kansallispuisto (Kouvola)</a></li>
+                    <li><a href="#">Oulangan kansallispuisto (Kuusamo)</a></li>
+
+                </ul>
+
+        </section>
+
+        <section id="retkeilykohteet">
+            <h2>Retkeilykohteet:</h2>
+            <p>Täältä löydät tietoa eri alueiden retkeilykohteista sekä käyttäjien kokemuksia ja arvosteluja:</p>
+            <br><br>
+
+
+
+
+            1.Nuuksio kansallispuisto (Espoo):<br><br> Nuuksion kansallispuisto on yksi Suomen suosituimmista
+            retkeilykohteista, joka tarjoaa upeita luontopolkuja, järviä ja metsiä.<br> Kansallispuiston alueella on
+            yhteensä 30 eri luontopolkua, joiden pituudet vaihtelevat 1-18 kilometrin välillä.<br> Käyttäjien kokemuksia
+            ja
+            arvosteluja Nuuksiosta löytyy esimerkiksi Retkipaikka-sivustolta.<br><br>
+
+            2.Koli kansallispuisto (Lieksa):<br><br> Koli kansallispuisto on yksi Suomen kansallismaisemista ja tarjoaa
+            upeat näkymät Pieliselle sekä ympäröiville vaaroille.<br> Kansallispuistossa on useita eri retkeilyreittejä,
+            joista suosituimpia ovat Ukko-Kolin nousu, Akka-Kolin kierros sekä Herajärven kierros.<br> Käyttäjien
+            kokemuksia
+            ja arvosteluja Kolista löytyy esimerkiksi Retkipaikka-sivustolta.<br><br>
+
+            3.Helvetinjärven kansallispuisto (Ruovesi):<br><br> Helvetinjärven kansallispuisto sijaitsee Pirkanmaalla ja
+            tarjoaa upeita rotkoja, kallioita ja järviä.<br> Kansallispuistossa on useita eri reittejä, joista suosituin
+            on
+            noin 4 kilometrin mittainen Helvetinkolun kierros.<br> Käyttäjien kokemuksia ja arvosteluja Helvetinjärvestä
+            löytyy esimerkiksi Retkipaikka-sivustolta.<br><br>
+
+            4.Repoveden kansallispuisto (Kouvola):<br><br> Repoveden kansallispuisto on yksi Suomen kauneimmista
+            kansallispuistoista, joka tarjoaa upeita järvimaisemia, kallioita ja rotkoja.<br> Kansallispuistossa on
+            useita
+            eri retkeilyreittejä, joista suosituimpia ovat Olhavanvuoren kierros, Katajavuoren kierros sekä Lapinsalmen
+            kierros.<br> Käyttäjien kokemuksia ja arvosteluja Repovedestä löytyy esimerkiksi
+            Retkipaikka-sivustolta.<br><br>
+
+            5.Oulangan kansallispuisto (Kuusamo):<br><br> Oulangan kansallispuisto sijaitsee Koillismaalla ja tarjoaa upeita
+            koskia, rotkoja ja järviä.<br> Kansallispuistossa on useita eri retkeilyreittejä, joista suosituimpia ovat
+            Karhunkierros, Pieni Karhunkierros sekä Kiutakönkään kierros.<br> Käyttäjien kokemuksia ja arvosteluja
+            Oulangasta löytyy esimerkiksi Retkipaikka-sivustolta. <br> <br>
+
+            <h4>Käyttäjäkokemuksia:</h4>
+
+            Nuuksio kansallispuisto (Espoo):<br><br>
+            "Kävin viikonloppureissulla Nuuksion kansallispuistossa Espoossa.<br> Olin aivan hämmästynyt siitä, kuinka
+            lähellä kaupunkia voi olla näin upeaa luontoa.<br> Vaikka en ole mikään eräjorma, löysin helposti hyviä
+            reittejä patikointiin ja maisemien ihailuun. Erityisesti Pirttimäen näkötorni oli upea, sieltä näkyi koko
+            kansallispuisto!"<br><br>
+            Koli kansallispuisto (Lieksa):<br><br>
+            "Vierailemme perheen kanssa usein Kolilla.<br> Lapset ovat aivan innoissaan kiipeillessään Ukko-Kolin
+            huipulle ja ihailessaan maisemia sieltä.<br> Vaikka Koli onkin aika suosittu turistikohde, on siellä silti
+            helppo löytää rauhallisia paikkoja patikointiin ja piknikeille.<br> Suosittelen ehdottomasti yöpymistä joko
+            kansallispuiston luontokeskuksessa tai jossain alueen tunnelmallisista mökeistä."<br><br>
+            Helvetinjärven kansallispuisto (Ruovesi):<br><br>
+            "Kävimme ystäväni kanssa retkellä Helvetinjärven kansallispuistossa.<br> Vaikka alue onkin pieni, se tarjoaa
+            upeita maisemia ja monipuolisia reittejä patikointiin.<br> Erityisesti rotkolaakso oli vaikuttava näky.<br>
+            Myös järven rannalla oli hyvä paikka levähtää ja nauttia eväistä.<br> Suosittelen Helvetinjärven
+            kansallispuistoa kaikille luonnosta ja patikoinnista kiinnostuneille!"<br><br>
+            Repoveden kansallispuisto (Kouvola):<br><br>
+            "Olen käynyt Repoveden kansallispuistossa jo useamman kerran ja joka kerta se yllättää upeilla
+            maisemillaan.<br> Erityisesti Olhavanvuoren kiipeilyreitti ja Lapinsalmen silta ovat suosikkipaikkojani.<br>
+            Alueella on myös hyvät mahdollisuudet telttailuun ja retkeilyyn, ja maisemat ovat kaiken kaikkiaan
+            vaikuttavat.<br> Suosittelen Repoveden kansallispuistoa kaikille luonnossa liikkumisesta
+            nauttiville!"<br><br>
+            Oulangan kansallispuisto (Kuusamo):<br><br>
+            "Oulangan kansallispuisto on oikea luonnon helmi.<br> Vierailemme siellä usein koko perheen kanssa ja joka
+            kerta löydämme jotain uutta nähtävää.<br> Oulankajoki ja sen ympäristö ovat vaikuttavia ja alueella on
+            upeita rotkoja ja putouksia.<br> Patikointireitit ovat monipuolisia ja niitä löytyy eri vaativuustasoilla."
+
+
+            <h5>
+                Klikkaa alla olevaa kuvaketta (avaa kartan suurempana):
+            </h5>
+
+            <a href="https://fi.wikipedia.org/wiki/Kartta#/media/Tiedosto:Map_of_Finland-fi.svg"><img src="suomi.PNG" alt="Kuvaus"></a>
+
+
+
+
+
+            <section id="varustevinkit">
+                <h2>Varuste- sekä tarvikevinkit:</h2>
+                <p>Täältä löydät tietoa erilaisista retkeilyvarusteistasekä vinkkejä varusteiden valintaan ja käyttöön.
+                </p>
+                <p>Muista ainakin nämä 8 asiaa:</p>
+                <p>
+                    1. Suunnittele reitti etukäteen: Ennen kuin lähdet luontopolulle, tutki reitti ja sen vaativuus.
+                    Tämä auttaa sinua valitsemaan oikeat varusteet ja valmistautumaan sopivasti.<br><br>
+
+                    2. Valitse oikeat kengät: Valitse kengät, jotka sopivat reitin maastoon. Kävelykengät ovat hyvä
+                    valinta helppokulkuisille reiteille, kun taas vaelluskengät ovat parempi valinta vaikeakulkuisille
+                    reiteille.<br><br>
+
+                    3. Pukeudu sään mukaan: Pukeudu kerroksittain, jotta voit tarvittaessa säätää vaatetustasi. Huomioi
+                    myös sään vaihtelut ja varaudu esimerkiksi sadevarusteilla.<br><br>
+
+                    4. Ota mukaan tarpeeksi vettä ja evästä: Muista juoda tarpeeksi vettä, jotta pysyt nesteytettynä.
+                    Ota myös mukaan riittävästi evästä, jotta jaksat kulkea reitin loppuun asti.<br><br>
+
+                    5. Käytä retkikarttaa tai navigaattoria: Retkikartta tai navigaattori auttaa sinua pysymään reitillä
+                    ja varmistamaan, että et eksy.<br><br>
+
+                    6. Käytä aurinkosuojavoidetta ja hyttyskarkotetta: Jos olet alttiina auringolle tai hyttysille,
+                    muista käyttää aurinkosuojavoidetta ja hyttyskarkotetta.<br><br>
+
+                    7. Tarkista varusteet ennen lähtöä: Tarkista ennen lähtöä, että kaikki varusteet ovat kunnossa ja
+                    toimivat. Muista myös ladata esimerkiksi puhelimesi akku ja ottaa vara-akku mukaan.<br><br>
+
+                    8. Noudata jokamiehenoikeuksia: Noudata jokamiehenoikeuksia ja pidä huoli luonnosta. Älä jätä roskia
+                    maastoon ja noudata reittien merkintöjä.<br><br><br>
+
+                    Alapuolella vielä linkki videoon, jossa opastetaan rinkan pakkaaminen:<br>
+
+                    <li><a href="https://www.youtube.com/watch?v=L8tKIh4E-Fc">Rinkan pakkaaminen</a></li><br>
+
+                    Toivottavasti näistä vinkeistä oli apua!</p>
+
+                    <h2>Uusimmat artikkelit ja retkivinkit:</h2>
+
+                    <li><a href="#artikkeli">Kaijan kokemukset luonnosta</a></li>
+                    <li><a href="#artikkeli">Yksin metsään?</a></li>
+                    <li><a href="#artikkeli">Ota nämä asiat huomioon luonnossa</a></li>
+                    <p>Tässä muutama vinkki tuleville retkillesi:</p>
+                    <ul>
+                        <p>1. Valmistaudu huolella: tutustu retkikohteeseen etukäteen ja varaa tarvittavat varusteet ajoissa.
+                        </p>
+                        <p>2. Ota mukaan tarpeeksi vettä ja eväitä, etenkin pidemmille retkille.</p>
+                        <p>3. Älä jätä roskia luontoon vaan kerää ne mukaasi ja hävitä asianmukaisesti.</p>
+                        <p>4. Huomioi myös muut retkeilijät ja eläimet: kulje merkityillä reiteillä, älä häiritse eläimiä ja
+                            anna
+                            tilaa muille retkeilijöille.</p>
+                        <p>5. Jos olet epävarma retkeilytaidoistasi, osallistu ensin jonkin järjestetyn retken tai kurssin.</p>
+
+
+                <section id="tietoa">
+                    <h2>Tietoa sivustosta:</h2>
+                    <p>Täältä löydät tietoa sivustosta, sen ylläpidosta ja yhteystiedot sekä usein kysytyt kysymykset.
+                    </p>
+
+                    <p>Luonto ja retkeilyvinkit sivusto on huomoristisessä mielessä toteuttu sivusto.<br> Sivuston
+                        sisältö
+                        on kuvitteellista ja sivuston on tarkoitus vain myötäillä ideaa, että mieltä luonto- ja
+                        retkeilyvinkit
+                        nettisivu voisi näyttää.<br>
+                        Tämä sivusto on opiskelijan tuottama työ osana Karelian mobiliili- ja tietokoneliittymät kurssia
+                        on
+                        on yksi kurssin keskeisimmistä suoritettavista töistä.<br><br>
+
+                    </p>
+
+                    <h3>Yhteystiedot (yhdyshenkilö):</h3>
+                    Oskari Kärkkäinen<br>
+                    Naantalinkatu 13 A4<br>
+                    70145 Kuusamo<br>
+                    s-posti: luontopolut(at)gmail.com<br>
+                    puh: 044 0645 005<br>
+
+                    <h3>Usein kysytyt kysymykset:</h3>
+                    <p>Mikä luontopolku on hyvä aloittelevalle retkeilijälle?</p>
+                    <p>Mitä ottaa mukaan?</p>
+                    <p>Ovatko luontopolut avoimia kaikille?</p>
+                    <p>Ovatko reitit ympärivuotisessa käytössä?</p><br>
+
+
+
+                    </div>
+                    <footer>
+                        <div class="container">
+                            <p>&copy; 2023 Luonto- ja retkeilyvinkit</p>
+                        </div>
+
+
+                        <a href=""><img src="alareunaa.PNG" alt="Kuvaus"></a> 
+                    </footer>
+                    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+                    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
